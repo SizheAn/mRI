@@ -5,6 +5,8 @@
 
 **[Dataset download link in google drive](https://drive.google.com/file/d/1kR2U_omRkVTNkoetr7Akkorx5HfAvZ_C/view?usp=sharing)**
 
+**Teaser: Try our action localization in action_localization folder!**
+
 _Please note that we need to process the part of the data (**camera related modalities**) due to privacy-preserving protocol, which might delay the data release. The dataset (including **camera realted modalities**) will be fully open-sourced before the **conference date**._
 
 After unzip the dataset_release.zip, the folder structure should be like this: 
