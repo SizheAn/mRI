@@ -1,0 +1,85 @@
+modality: {
+  rgb : {
+    dataset_name: mri-rgb,
+    dataset: {
+      input_dim: 51,
+    },
+  },
+  imu : {
+    dataset_name: mri-imu,
+    dataset: {
+      input_dim: 51,
+    },
+  },
+  radar : {
+    dataset_name: mri-radar,
+    dataset: {
+      input_dim: 51,
+    },
+  },
+  rgb_imu : {
+    dataset_name: mri-rgb-imu,
+    dataset: {
+      input_dim: [51, 51],
+    },
+  },
+  rgb_radar : {
+    dataset_name: mri-rgb-radar,
+    dataset: {
+      input_dim: [51, 51],
+    },
+  },
+  imu_radar : {
+    dataset_name: mri-imu-radar,
+    dataset: {
+      input_dim: [51, 51],
+    },
+  },
+  rgb_imu_radar : {
+    dataset_name: mri-rgb-imu-radar,
+    dataset: {
+      input_dim: [51, 51, 51],
+    },
+  },
+}
+
+protocol: {
+  # protocol 1
+  s1_p1 : {
+      dataset: {
+      json_file: ./data/mri/annotations/mri_split1_p1.json,
+      num_classes: 12,
+    },
+  },
+  s2_p1 : {
+      dataset: {
+      json_file: ./data/mri/annotations/mri_split2_p1.json,
+      num_classes: 12,
+    },
+  },
+  s3_p1 : {
+      dataset: {
+      json_file: ./data/mri/annotations/mri_split3_p1.json,
+      num_classes: 12,
+    },
+  },
+  # protocol 2
+  s1_p2 : {
+      dataset: {
+      json_file: ./data/mri/annotations/mri_split1_p2.json,
+      num_classes: 10,
+    },
+  },
+  s2_p2 : {
+      dataset: {
+      json_file: ./data/mri/annotations/mri_split2_p2.json,
+      num_classes: 10,
+    },
+  },
+  s3_p2 : {
+      dataset: {
+      json_file: ./data/mri/annotations/mri_split3_p2.json,
+      num_classes: 10,
+    },
+  }
+}
