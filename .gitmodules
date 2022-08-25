@@ -1,3 +1,0 @@
-[submodule "action"]
-	path = action_localization
-	uri = git@github.com:happyharrycn/actionformer_mri.git
