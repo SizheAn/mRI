@@ -34,6 +34,11 @@ ${ROOT}
 |   |   |-- results
 |   |   |-- *.pkl
 ```
+**_Load cpl file_** The .cpl file is essentially pickle file, to read them, use:
+```
+import pickle
+file = pickle.load(open('.../file_path/XXX.cpl', 'rb'))
+```
 
 **_raw_data_** folder contains all raw_data before synchronization. It includes imu raw data, radar raw data, eaf annotations, unix timestamp from camera, and videolabels generated from the eaf file.
 
