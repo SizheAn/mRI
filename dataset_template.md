@@ -194,7 +194,7 @@ plt.show()
 
 
     
-![png](_data_template_files/_data_template_20_0.png)
+![png](./_data_template_20_0.png)
     
 
 
