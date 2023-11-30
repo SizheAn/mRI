@@ -225,7 +225,16 @@ plt.show()
 
 ```
 
-### Part 4: Demos
-Please refer to test.py for refine 3d points from rgb data.
+### Part 4: Frequently Asked Questions
+#### 1. How to get the IMU feature data?
+The IMU feature data is generated from the aligned data. Please refer to the `multimodal_loader.py` file for more details. And don't forget to check the paper in references.
+#### 2. How to get the camera intrinsic parameters?
+The camera intrinsic parameters are generated from the matlab code. Please refer to the `camera_calibrate.py` file for more details.
+#### 3. How to get the mmWave feature data?
+The mmWave feature data is generated from the raw mmWave data. Please refer to the `get_radarfeature.py` file for more details. And you can also refer to **[MARS](https://doi.org/10.5061/dryad.9ghx3ffpp)** which is previous work of our team.
+#### 4. How to get the action localization?
+Please refer to folder `action_localization` for more details.
+
+
 
 

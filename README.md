@@ -5,14 +5,15 @@
 
 **[Dataset download link in google drive](https://drive.google.com/file/d/1kR2U_omRkVTNkoetr7Akkorx5HfAvZ_C/view?usp=sharing)**
 
+**[Raw RGB data download link in dyrad](https://doi.org/10.5061/dryad.9ghx3ffpp)**
+
 **Teaser: Try our action localization in action_localization folder!**
 
-_Please note that we need to process the part of the data (**camera related modalities**) due to privacy-preserving protocol, which might delay the data release. The dataset (including **camera realted modalities**) will be fully open-sourced soon._
-
+**Dataset format: We now have open access to both feature data and raw videos**
 After unzip the dataset_release.zip, the folder structure should be like this: 
 
 ```
-${ROOT}
+${google drive folder}
 |-- raw_data
 |   |-- imu
 |   |-- eaf_file
