@@ -5,7 +5,7 @@
 
 **[Dataset download link in google drive](https://drive.google.com/file/d/1kR2U_omRkVTNkoetr7Akkorx5HfAvZ_C/view?usp=sharing)**
 
-**Teaser: Try our action localization in action_localization folder!**
+**[New dataset download link with RGB videos included and a new readme file](https://doi.org/10.5061/dryad.9ghx3ffpp)**
 
 _Please note that we need to process the part of the data (**camera related modalities**) due to privacy-preserving protocol, which might delay the data release. The dataset (including **camera realted modalities**) will be fully open-sourced soon._
 
